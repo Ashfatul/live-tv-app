@@ -1,38 +1,87 @@
-.App {
+.single-country-cokntainer {
+}
+body {
+  background: lightblue;
+}
+.country-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 5%;
+  justify-content: center;
+}
+
+a.single-country {
+  background: #000;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  color: forestgreen;
+  text-decoration: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.country-container {
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span.country-code {
+  padding-left: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.channel-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a.single-tv-channel {
+  flex-basis: 300px;
+  text-align: center;
+  background: #000;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  color: forestgreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.single-tv-channel > * {
+  margin: 0;
+  padding: 0;
+}
+
+p.channel-name {
+  font-size: 20px;
+  color: darkseagreen;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.section-title {
+  text-align: center;
+}
+img.channel-logo {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
+video.live-video {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.player-container {
+  text-align: center;
+}
+button.back {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+button.back a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  display: block;
+  color: #000;
 }
