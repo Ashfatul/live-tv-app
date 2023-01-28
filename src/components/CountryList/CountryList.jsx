@@ -11,7 +11,7 @@ const CountryList = () => {
   }, []);
   return (
     <div className="country-container">
-      <h1>Country List</h1>
+      <h1 style={{ marginBottom: "0" }}>Country List</h1>
       <div className="country-list-container">
         {countrydata.map((thisCountry) => (
           <Country country={thisCountry} key={thisCountry.code} />

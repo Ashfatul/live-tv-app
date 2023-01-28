@@ -67,6 +67,7 @@ img.channel-logo {
 video.live-video {
   width: 50%;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .player-container {

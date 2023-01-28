@@ -2,7 +2,6 @@ import React from "react";
 import ReactHlsPlayer from "@ducanh2912/react-hls-player";
 import { Link } from "react-router-dom";
 const Play = (props) => {
-  console.log(props.url);
   return (
     <div className="player-container">
       <h1 className="channel-name">{props.info.channel}</h1>
