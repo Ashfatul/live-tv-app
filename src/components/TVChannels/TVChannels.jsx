@@ -8,7 +8,7 @@ const TVChannels = () => {
   useEffect(() => {
     fetch("https://iptv-org.github.io/api/channels.json")
       .then((res) => res.json())
-      .then((channelList) => setChannelList(channelList))
+      .then((channelList) => setChannelList(channelList.splice(1, 10)))
       .catch((error) => console.log(error));
   }, []);
 
