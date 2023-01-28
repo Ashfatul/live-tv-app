@@ -85,3 +85,16 @@ button.back a {
   display: block;
   color: #000;
 }
+.error404-container {
+  height: 100vh;
+  background: darkred;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error404-container > * {
+  margin: 0;
+}
